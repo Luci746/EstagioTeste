@@ -17,8 +17,6 @@ class analiseFaturamento():
         menorFat = valores.iloc[0]
         maiorFat = valores.iloc[-1]
 
-        #print(valores['valor'].iloc[3])
-
         valor = valores['valor'].iloc[0]
 
 
