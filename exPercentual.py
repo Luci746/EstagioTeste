@@ -27,6 +27,12 @@ class distribuidora():
 
         total = (dados['dist'].sum() / 100)
 
+        ## baseado no percentual total, medir o percentual de cada estado (dentro do data frame)
+        def fatPercentual(dado, pertotal) -> float:
+            
+
+        print(f"esta é a somatória dos faturamentos{dados[dados['dist'].sum]}")
+
         print(total)
      
 if __name__ == '__main__':
